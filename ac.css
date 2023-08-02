@@ -1,0 +1,9 @@
+.no-val {
+  color: orangered;
+}
+.neg-case {
+  color: red;
+}
+.pos-case {
+  color: green;
+}

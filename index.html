@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <link rel="stylesheet" type="text/css" href="ac.css" />
+    <script type="text/javascript" src="ac.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Assessment Centre</h1>
+      <h3>
+        Select each problem you would like to view. Each contains the code on
+        the right and the deployment on the left
+      </h3>
+    </header>
+
+    <main>
+      <section></section>
+
+      <!-- Palindrome -->
+      <details>
+        <summary>Palindrome</summary>
+        <section>
+          <aside>
+            <h4>Palindrome</h4>
+            <input type="text" id="palindrome" name="palindrome" required />
+            <button
+              onclick="palindrome(document.getElementById('palindrome').value);"
+            >
+              Check
+            </button>
+            <div id="palindrome-response"></div>
+          </aside>
+        </section>
+      </details>
+    </main>
+  </body>
+</html>
